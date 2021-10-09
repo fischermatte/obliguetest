@@ -1,0 +1,11 @@
+organization: (VTG-VTKG
+caasp_version: 4
+applications:
+- name: VTKG)
+  path: ./dist
+  stack: cflinuxfs3
+  disk_quota: 768M
+  instances: 1
+  memory: 128M
+  routes:
+  - route: VTKG).cfap02.atlantica.admin.ch

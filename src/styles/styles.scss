@@ -1,0 +1,19 @@
+// this file should contain only imports. Rules should be grouped by features and placed into the corresponding file
+@import '~@oblique/oblique/styles/scss/core/variables';
+/* You can add global styles to this file, and also import other style files */
+
+.vtkg-container {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+// .ob-master-layout-navigation > nav:nth-child(2) {
+//     box-shadow: rgba(0, 0, 0, 0.1) 0px -4px 14px -4px inset;
+// }
+
+// #navigation {
+//     max-width: 1080px;
+//     width: 100%;
+//     margin: 0 auto;
+// }

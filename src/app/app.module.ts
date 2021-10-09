@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ObMasterLayoutModule, ObMasterLayoutConfig, multiTranslateLoader, ObHttpApiInterceptor, OB_BANNER, ObExternalLinkModule, ObMandatoryModule } from '@oblique/oblique';
+import { ObMasterLayoutModule, ObMasterLayoutConfig, multiTranslateLoader, ObHttpApiInterceptor, OB_BANNER, ObExternalLinkModule, ObMandatoryModule, ObStickyModule } from '@oblique/oblique';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { registerLocaleData } from '@angular/common';
 import localeDECH from '@angular/common/locales/de-CH';
@@ -24,6 +24,7 @@ registerLocaleData(localeDECH);
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ObStickyModule,
     ObMasterLayoutModule, // add other Oblique modules as needed
     BrowserAnimationsModule, HttpClientModule, TranslateModule.forRoot(multiTranslateLoader()), MatButtonModule, MatCardModule, ObExternalLinkModule, ObMandatoryModule
   ],

@@ -23,7 +23,7 @@
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
     "@ngx-translate/core": "^13.0.0",
-    "@oblique/oblique": "oblique-bit/oblique#7.0.4",
+    "@oblique/oblique": "^7.0.4",
     "@popperjs/core": "^2.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",

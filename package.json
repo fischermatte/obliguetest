@@ -56,10 +56,5 @@
     "reportFile": "sqr.xml",
     "indent": 4,
     "sonar56x": true
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run format"
-    }
   }
 }
